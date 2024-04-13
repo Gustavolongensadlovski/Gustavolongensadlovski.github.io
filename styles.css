@@ -9,36 +9,30 @@ body {
 }
 
 .container {
-    width: 80%;
-    max-width: 400px;
-    height: 300px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .box {
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 200px;
     background-color: #3498db;
+    border-radius: 20px;
     transition: all 0.3s ease;
 }
 
 .controls {
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .control-row {
-    margin-bottom: 10px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 label {
@@ -56,15 +50,13 @@ input[type="number"] {
 }
 
 @media (max-width: 500px) {
-    .container {
-        height: 200px;
-    }
     .box {
-        width: 90%;
-        height: 90%;
+        width: 150px;
+        height: 150px;
     }
     input[type="number"] {
         width: 50px;
         padding: 3px;
     }
 }
+
