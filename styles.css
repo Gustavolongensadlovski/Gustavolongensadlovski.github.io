@@ -11,7 +11,8 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Alinhar itens ao topo */
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
@@ -19,7 +20,7 @@ body {
     width: 200px;
     height: 200px;
     background-color: #3498db;
-    border-radius: 0; /* Remover o border-radius da caixa */
+    border-radius: 20px;
     transition: all 0.3s ease;
 }
 
