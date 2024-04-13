@@ -1,1 +1,0 @@
-# Gustavolongensadlovski.github.io
