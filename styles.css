@@ -1,72 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Border Radius</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box"></div>
+    </div>
+    <div class="controls">
+        <div class="control-row">
+            <label for="topLeft">Top Left:</label>
+            <input type="number" id="topLeft" min="0" max="100" value="0">
+        </div>
+        <div class="control-row">
+            <label for="topRight">Top Right:</label>
+            <input type="number" id="topRight" min="0" max="100" value="0">
+        </div>
+        <div class="control-row">
+            <label for="bottomRight">Bottom Right:</label>
+            <input type="number" id="bottomRight" min="0" max="100" value="0">
+        </div>
+        <div class="control-row">
+            <label for="bottomLeft">Bottom Left:</label>
+            <input type="number" id="bottomLeft" min="0" max="100" value="0">
+        </div>
+    </div>
 
-.container {
-    width: 300px;
-    height: 300px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.box {
-    width: 80%;
-    height: 80%;
-    background-color: #3498db;
-    transition: all 0.3s ease;
-}
-
-.controls {
-    margin-top: 20px;
-    text-align: center;
-}
-
-input[type="range"] {
-    width: 200px;
-    margin-bottom: 10px;
-    -webkit-appearance: none;
-    background-color: #dcdcdc;
-    border-radius: 10px;
-    height: 10px;
-}
-
-input[type="range"]:focus {
-    outline: none;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background-color: #3498db;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-input[type="range"]::-moz-range-thumb {
-    width: 20px;
-    height: 20px;
-    background-color: #3498db;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-label {
-    font-size: 14px;
-    font-weight: bold;
-    color: #333333;
-    display: block;
-    margin-bottom: 5px;
-}
+    <script src="script.js"></script>
+</body>
+</html>
