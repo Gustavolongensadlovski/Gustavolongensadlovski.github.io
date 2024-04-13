@@ -11,7 +11,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Alinhar itens ao topo */
     margin-bottom: 20px;
 }
 
@@ -19,7 +19,7 @@ body {
     width: 200px;
     height: 200px;
     background-color: #3498db;
-    border-radius: 20px;
+    border-radius: 0; /* Remover o border-radius da caixa */
     transition: all 0.3s ease;
 }
 
@@ -59,4 +59,3 @@ input[type="number"] {
         padding: 3px;
     }
 }
-
