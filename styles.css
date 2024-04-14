@@ -67,3 +67,32 @@ input[type="range"]::-moz-range-thumb {
     border-radius: 50%;
     cursor: pointer;
 }
+
+
+/* Estilos para a textarea */
+textarea {
+    width: 80%;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
