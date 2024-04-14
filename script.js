@@ -17,7 +17,7 @@ function copyCode() {
     const codeOutput = document.getElementById('codeOutput');
     codeOutput.select();
     document.execCommand('copy');
-    alert('Código HTML copiado para a área de transferência!');
+    
 }
 
 topLeft.addEventListener('input', updateBorderRadius);
