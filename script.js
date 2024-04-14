@@ -9,8 +9,8 @@ function updateBorderRadius() {
     const radiusValue = `${topLeft.value}% ${topRight.value}% ${bottomRight.value}% ${bottomLeft.value}%`;
     box.style.borderRadius = radiusValue;
 
-    const htmlCode = `border-radius: ${borderRadiusValue};`;
-    codeOutput.value = htmlCode.value;
+    codeOutput.value += `border-radius: ${borderRadiusValue};`;
+     
 }
 
 function copyCode() {
