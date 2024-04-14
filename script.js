@@ -3,13 +3,13 @@ const topLeft = document.getElementById('topLeft');
 const topRight = document.getElementById('topRight');
 const bottomRight = document.getElementById('bottomRight');
 const bottomLeft = document.getElementById('bottomLeft');
-    const codeOutput = document.getElementById('codeOutput');
+const text = document.getElementById('codeOutput');
 
 function updateBorderRadius() {
     const radiusValue = `${topLeft.value}% ${topRight.value}% ${bottomRight.value}% ${bottomLeft.value}%`;
     box.style.borderRadius = radiusValue;
 
-    codeOutput.value += `border-radius: ${borderRadiusValue};`;
+    text.value = `border-radius: ${radiusValue};`;
      
 }
 
