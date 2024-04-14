@@ -2,15 +2,10 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 10px;
 }
 
 .container {
@@ -46,7 +41,6 @@ input[type="range"] {
     width: 200px;
     margin-bottom: 10px;
     -webkit-appearance: none;
-    appearance: none;
     background-color: #dcdcdc;
     border-radius: 10px;
     height: 10px;
