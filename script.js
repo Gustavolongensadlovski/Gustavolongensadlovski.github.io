@@ -10,7 +10,7 @@ function updateBorderRadius() {
     box.style.borderRadius = radiusValue;
 
     const htmlCode = `border-radius: ${borderRadiusValue};`;
-    codeOutput.value = htmlCode;
+    codeOutput.value = htmlCode.value;
 }
 
 function copyCode() {
