@@ -22,6 +22,7 @@ h1 {
 }
 
 .box {
+    display: block;
     width: 200px;
     height: 200px;
     background-color: #3498db;
